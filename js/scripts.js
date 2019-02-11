@@ -20,6 +20,8 @@ $("document").ready(function(){
     $("ul#webpage").children("li").last().remove();
     $("ul#webpage").children("li").first().click(function() {
       $(this).css("background-color","green");
+      $("ul#webpage").children().last().remove();
+
     });
 
 

@@ -1,0 +1,33 @@
+<!<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <title>User and Webpage Dialogue</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Talk to the web page</h1>
+      <p>Click a button to say something to the web page. See what it says back!</p>
+      <button class="btn btn-primary" id="hello">Say Hello</button>
+      <button class="btn btn-primary" id="Good-bye">Say Good bye</button>
+      <button class="btn btn-primary" id="stop">Stop</button>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>You say:</h2>
+          <ul id="user"></ul>
+        </div>
+
+        <div class="col-lg-6">
+          <h2>The webpage says back:</h2>
+          <ul id="webpage"></ul>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

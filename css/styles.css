@@ -1,0 +1,16 @@
+.green-background{
+  background-color: green;
+}
+.blue-background{
+  background-color: blue;
+}
+.red-background{
+  background-color: red;
+}
+.highlights{
+  border: solid black 1px;
+  background-color: #00aacc;
+  font-size: 25px;
+  margin-top:30px;
+  padding: 10px;
+}
